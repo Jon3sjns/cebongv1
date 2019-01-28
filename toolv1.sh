@@ -128,8 +128,7 @@ apt-get install python2
 apt-get install git
 git clone https://github.com/sqlmapproject/sqlmap.git
 cd sqlmap
-python2 sqlmap
-echo "cara menggunkannya ialah python2 sqlmap.py www.kontol.com"
+python2 sqlmap.py
 fi
 if [$cc=9]||[$cc=9]
 then
