@@ -89,30 +89,35 @@ php headbyte.php
 fi
 if [$cc=3] || [$cc=3]
 then
+clear
 git clone https://github.com/Afrizall/hex-tool
 cd hex-tool
 echo 'example=php hex.php hex "katamu"  '
 fi
 if [$cc=4] || [$cc=4]
 then
+clear
 git clone https://github.com/Afrizall/php-ddos
 cd php-ddos
 php ddos.php
 fi
 if [$cc=5] || [$cc=5]
 then
+clear
 git clone https://github.com/ErrorByte/admin_page_bruteforce
 cd admin_page_bruteforce
 php brute.php
 fi
 if [$cc=6] || [$cc=6]
 then
+clear
 git clone https://github.com/s0md3v/sqlmate
 cd sqlmate
 ./sqlmate
 fi
 if [$cc=7] || [$cc=7]
 then
+clear
 apt update && apt upgrade -y
 apt install git
 apt install php -y
@@ -124,6 +129,7 @@ sh LITESPAM.sh
 fi
 if [$cc=8] || [$cc=8]
 then
+clear
 apt-get update
 apt-get install python2
 apt-get install git
@@ -133,6 +139,7 @@ python2 sqlmap.py
 fi
 if [$cc=9] || [$cc=9]
 then
+clear
 pkg update -y
 pkg install python2  -y
 pkg install git -y
@@ -143,12 +150,14 @@ python2 MBF.py
 fi
 if [$cc=10] || [$cc=10]
 then
+clear
 https://github.com/CiKu370/OSIF
 cd OSIF
 python2 osif.py
 fi
 if [$cc=00] || [$cc=00]
 then
+clear
 echo "maknya bos jangan banyak liat vokep:v" |lolcat
 echo "makasih ya sudah gunakan tools ini"
 sleep 1
