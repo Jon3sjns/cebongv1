@@ -14,16 +14,16 @@ enda='\033[0m'
 blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
-figlet "TU4N N1CKN4M3"|lolcat
+figlet "Cebong"|lolcat
 
 echo "              {+++++++++++++++++++++++++++++++++++++++++++}"|lolcat
 echo "              {  PEMBUAT :            CebongAnarki        }"|lolcat
 echo "              {=======================×××=================}"|lolcat
 echo "              {  EMAIL   :    cebong@icwr-tech.id         }"|lolcat
-echo "              {  TEAM    :    In Crust We Rush            }"|lolcat
-echo "              {  WA      :    085837173009                }"|lolcat
 echo "              {=======================×××=================}"|lolcat
+echo "              {  NOMOR WA:    085837173009.               }"|lolcat
 echo "              {=======================×××=================}"|lolcat
+echo "              {  Team    :    In Crust We Rush            }"|lolcat
 echo "              {=======================×××=================}"|lolcat
 echo "              {          thanks for in crust we rush      }"|lolcat
 echo "              {=======================×××=================}"|lolcat
@@ -65,12 +65,11 @@ echo "{======================================}"|lolcat
 echo "{======================================}"|lolcat
 echo " 00.Keluar (gak punya kuota)"
 echo "{======================================}"|lolcat
-echo " "
 trap ctrl_c INT
 ctrl_c()
 {
 echo -e "$red(Ctrl + C ) ditunggu ya tool versi berikut"
-figlet -f digital "     BYEEEE"
+figlet "     selamatjalan"
 sleep 1
 exit
 }
@@ -157,5 +156,6 @@ if [$cc=00] || [$cc=00]
 then
 echo "maknya bos jangan banyak liat vokep:v" |lolcat
 echo "makasih ya sudah gunakan tools ini"
+sleep 1
 exit
 fi
