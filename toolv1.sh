@@ -130,7 +130,7 @@ git clone https://github.com/sqlmapproject/sqlmap.git
 cd sqlmap
 python2 sqlmap.py
 fi
-if [$cc=9]||[$cc=9]
+if [$cc=9] || [$cc=9]
 then
 pkg update -y
 pkg install python2  -y
@@ -138,15 +138,10 @@ pkg install git -y
 pip2 install mechanize
 git clone https://github.com/tikuskecil/multi-bruteforce-facebook
 cd multi-bruteforce-facebook
-echo "mbf dah siap cok:v" | lolcat
 python2 MBF.py
 fi
 if [$cc=10] || [$cc=10]
 then
-apt update && apt upgrade
-apt install python2
-pip2 install requests mechanize
-apt install git
 https://github.com/CiKu370/OSIF
 cd OSIF
 python2 osif.py
