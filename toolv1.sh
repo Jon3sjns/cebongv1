@@ -82,6 +82,7 @@ php scanner.php
 fi
 if [ $cc = 2 ] || [ $cc = 2 ]
 then
+clear
 git clone https://github.com/Afrizall/HeadByte
 cd HeadByte
 php headbyte.php
