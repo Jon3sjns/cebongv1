@@ -94,6 +94,7 @@ clear
 git clone https://github.com/Afrizall/hex-tool
 cd hex-tool
 echo 'example=php hex.php hex "kata katamu"  '|lolcat
+cd hex-tool
 fi
 if [ $cc = 4 ] || [ $cc = 4 ]
 then
