@@ -16,21 +16,21 @@ cyan='\e[1;36m'
 red='\e[1;31m'
 figlet "Cebong"|lolcat
 
-echo "              {+++++++++++++++++++++++++++++++++++++++++++}"|lolcat
-echo "              {  PEMBUAT :            CebongAnarki        }"|lolcat
-echo "              {=======================×××=================}"|lolcat
-echo "              {  EMAIL   :    cebong@icwr-tech.id         }"|lolcat
-echo "              {=======================×××=================}"|lolcat
-echo "              {  NOMOR WA:    085837173009.               }"|lolcat
-echo "              {=======================×××=================}"|lolcat
-echo "              {  Team    :    In Crust We Rush            }"|lolcat
-echo "              {=======================×××=================}"|lolcat
-echo "              {          thanks for in crust we rush      }"|lolcat
-echo "              {=======================×××=================}"|lolcat
-echo "              {         Join ICWR hubungi wa diatas       }"|lolcat
-echo "              {=======================×××=================}"|lolcat
-echo "              {        gunakan tool sebijaknya ya!!!      }"|lolcat
-echo "              {+++++++++++++++++++++++++++++++++++++++++++}"|lolcat
+echo "           {+++++++++++++++++++++++++++++++++++++++++++}"
+echo "           {  PEMBUAT :            CebongAnarki        }"
+echo "           {=======================×××=================}"
+echo "           {  EMAIL   :    cebong@icwr-tech.id         }"
+echo "           {=======================×××=================}"
+echo "           {  NOMOR WA:    085837173009.               }"
+echo "           {=======================×××=================}"
+echo "           {  Team    :    In Crust We Rush            }"
+echo "           {=======================×××=================}"
+echo "           {          thanks for in crust we rush      }"
+echo "           {=======================×××=================}"
+echo "           {         Join ICWR hubungi wa diatas       }"
+echo "           {=======================×××=================}"
+echo "           {        gunakan tool sebijaknya ya!!!      }"
+echo "           {+++++++++++++++++++++++++++++++++++++++++++}"
 echo " "
 echo "{=======================================}"|lolcat
 echo " 1.Port scanning "
@@ -78,6 +78,7 @@ if [ $cc = 1 ] || [ $cc = 1 ]
 then
 git clone https://github.com/ICWR-TECH/p0rt5
 cd p0rt5
+echo "php scanner.php target.com"|lolcat
 php scanner.php
 fi
 if [ $cc = 2 ] || [ $cc = 2 ]
@@ -92,13 +93,14 @@ then
 clear
 git clone https://github.com/Afrizall/hex-tool
 cd hex-tool
-echo 'example=php hex.php hex "katamu"  '
+echo 'example=php hex.php hex "kata katamu"  '|lolcat
 fi
 if [ $cc = 4 ] || [ $cc = 4 ]
 then
 clear
 git clone https://github.com/Afrizall/php-ddos
 cd php-ddos
+echo "php ddos.php target.com"|lolcat
 php ddos.php
 fi
 if [ $cc = 5 ] || [ $cc = 5 ]
@@ -106,6 +108,7 @@ then
 clear
 git clone https://github.com/ErrorByte/admin_page_bruteforce
 cd admin_page_bruteforce
+echo "php brute.php target.com"|lolcat
 php brute.php
 fi
 if [ $cc = 6 ] || [ $cc = 6 ]
@@ -159,7 +162,7 @@ if [ $cc = 00 ] || [ $cc = 00 ]
 then
 clear
 echo "maknya bos jangan banyak liat vokep:v" |lolcat
-echo "makasih ya sudah gunakan tools ini"
+echo "makasih ya sudah gunakan tools ini"|lolcat
 sleep 1
 exit
 fi
