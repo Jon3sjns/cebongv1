@@ -73,7 +73,7 @@ figlet "     selamatjalan"
 sleep 1
 exit
 }
-read -p "Silahkan Pilih :" cc
+read -p "Silahkan Pilih ==> " cc
 if [ $cc = 1 ] || [ $cc = 1 ]
 then
 git clone https://github.com/ICWR-TECH/p0rt5
